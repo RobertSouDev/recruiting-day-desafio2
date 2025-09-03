@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Carteira Cripto</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Carteira Cripto</h2>
+
+    <label for="endereco">Endereço da Carteira:</label>
+    <input type="text" id="endereco" placeholder="Ex: 0xabc123...">
+
+    <button onclick="validarEndereco()">Validar Endereço</button>
+    <div id="validacaoEndereco"></div>
+
+    <button onclick="mostrarTransacoes()">Mostrar Transações Ordenadas</button>
+    <div id="transacoesOrdenadas"></div>
+
+    <a href="index.html" class="btn-back">Voltar</a>
+  </div>
+
+  <script src="js/validarEnderecoCarteira.js"></script>
+</body>
+</html>
